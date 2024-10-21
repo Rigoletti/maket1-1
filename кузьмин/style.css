@@ -96,3 +96,86 @@ a:hover {
   font-size: 58px;
   margin-top: 150px;
 }
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap; gap: 30px; 
+  margin-left: 197px; 
+}
+
+.cards_hero1 {
+  background-color: white;
+  border: 0px solid #ccc;
+  padding: 20px;
+  text-align: left; width: 328px;
+  height: 201px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; align-items: flex-start;
+   z-index: 2; 
+    
+}
+
+.cards_hero1 img {
+  width: 48px;
+  height: 39px;
+  margin-bottom: 10px; 
+}
+
+.cards_hero1 h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0; 
+}
+
+.cards_hero1 p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0; 
+}
+
+.blue-card {
+  background-color: #23A6F0;
+  color: white;
+}
+
+.blue-card h1, .blue-card p {
+  color: white;
+}
+
+/* 4 секция */
+
+.col-auto {
+  margin-right: 60px; 
+}
+.col-auto:last-child {
+  margin-right: 0;
+}
+.img-sponsor{
+  margin-top: 196px;
+}
+.search {
+  display: flex; 
+  color: white; 
+  align-items: center; 
+  margin-bottom: 20px;
+  padding: 20px; 
+  background: linear-gradient(to right, #004788, #D71489); 
+  justify-content: center;
+  height: 124px; 
+  font-weight: 700;
+  font-size: 24px;
+}
+.search input {
+  width: 450px; 
+  height: 58px; 
+  border-radius: 4px; 
+  border: none; 
+  padding: 0 10px; 
+}
+.search button {
+  height: 58px; 
+  border: 0px;
+  background-color: #23A6F0;
+}
